@@ -35,10 +35,10 @@
         ],
         "data_source_instruction": "EXAMPLE INSTRUCTION: Use only specified data sources. DO NOT use placeholder data in actual runs. This is an example.",
         "env_details": {
-          "NEO4J_URI": "bolt://example-host:7687",
-          "NEO4J_USER": "user_placeholder",
-          "NEO4J_PASSWORD": "password_placeholder",
-          "NEO4J_DATABASE": "example_db"
+          "DATABASE_URI": "bolt://example-host:7687",
+          "DATABASE_USER": "user_placeholder",
+          "DATABASE_PASSWORD": "password_placeholder",
+          "DATABASE_DATABASE": "example_db"
         },
         "user_directive": "EXAMPLE DIRECTIVE: Focus solely on implementing ExampleFeature using the specified data sources. Overwrite this directive."
       },
